@@ -3,59 +3,211 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="./assets/scss/main.css" />
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    10,000+ of our users love our products.
-
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <main>
+      <section class="customer-reviews">
+        <div class="customer-reviews__details">
+          <h1>10,000+ of our users love our products.</h1>
+          <p>
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+        <div class="customer-reviews__rating">
+          <div class="ratings rating-one">
+            <div class="stars">
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+            </div>
+            <div>
+              <p><b>Rated 5 Starts in Reviews</b></p>
+            </div>
+          </div>
+          <div class="ratings rating-two">
+            <div class="stars">
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+            </div>
+            <div>
+              <p><b>Rated 5 Starts in Report Guru</b></p>
+            </div>
+          </div>
+          <div class="ratings rating-three">
+            <div class="stars">
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.539 6.097a.297.297 0 00-.24-.202l-5.36-.779L8.542.26a.296.296 0 00-.53 0L5.613 5.117l-5.36.779a.297.297 0 00-.165.505l3.88 3.78-.917 5.34a.297.297 0 00.43.312l4.795-2.52 4.794 2.52a.296.296 0 00.43-.313l-.916-5.338L16.464 6.4c.08-.08.11-.197.075-.304z"
+                  fill="#EF9546"
+                  fill-rule="nonzero"
+                />
+              </svg>
+            </div>
+            <div>
+              <p><b>Rated 5 Starts in BestTech</b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="customer-reviews">
+        <div class="customer-comment card1">
+          <div class="customer-comment__header">
+            <div class="profile-pic">
+              <img src="./assets/images/image-colton.jpg" alt="" />
+            </div>
+            <div class="description">
+              <h3>Colton Smith</h3>
+              <h6>Verified Buyer</h6>
+            </div>
+          </div>
+          <div class="customer-comment__comment">
+            <p>
+              "We needed the same printed design as the one we had ordered a
+              week prior. Not only did they find the original order, but we also
+              received it in time. Excellent!"
+            </p>
+          </div>
+        </div>
+        <div class="customer-comment card2">
+          <div class="customer-comment__header">
+            <div class="profile-pic">
+              <img src="./assets/images/image-irene.jpg" alt="" />
+            </div>
+            <div class="description">
+              <h3>Irene Roberts</h3>
+              <h6>Verified Buyer</h6>
+            </div>
+          </div>
+          <div class="customer-comment__comment">
+            <p>
+              "Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery."
+            </p>
+          </div>
+        </div>
+        <div class="customer-comment card3">
+          <div class="customer-comment__header">
+            <div class="profile-pic">
+              <img src="./assets/images/image-anne.jpg" alt="" />
+            </div>
+            <div class="description">
+              <h3>Anne Wallace</h3>
+              <h6>Verified Buyer</h6>
+            </div>
+          </div>
+          <div class="customer-comment__comment">
+            <p>
+              "Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!"
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

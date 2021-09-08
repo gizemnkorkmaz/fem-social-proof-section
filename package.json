@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "sass": "^1.39.0"
+  },
+  "name": "social-proof-section-master",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/scss/main.scss:assets/scss/main.css --style compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gizemnkorkmaz/fm-social-proof-section.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gizemnkorkmaz/fm-social-proof-section/issues"
+  },
+  "homepage": "https://github.com/gizemnkorkmaz/fm-social-proof-section#readme"
+}
